@@ -1,12 +1,24 @@
+;; firebelly-theme.el --- see, the ground was wet and they were everywhere.
+
+;; Author: startling <tdixon51793@gmail.com>
+;; URL: https://github.com/startling/firebelly
+
 ;; "I came up to a clearing, where the crosswinds cooled my face.  I
 ;;  would've sat down there in the middle, I would've rested just a
-;;  little, but for the fire-bellied toads. See the ground was wet and
+;;  little, but for the fire-bellied toads. See, the ground was wet and
 ;;  they were everywhere. Fire-bellied toad number five from what may
 ;;  or may not have been unlimited series opened up his little mouth
 ;;  as though to speak, and then he spoke to me, and he said:
 ;; 'You can't holler down a rain barrel. You can't climb around a tree.
 ;;  I don't want to play in your yard if you won't be good to me.'
 ;;  Honey, it was downright creepy."
+
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory
+                (file-name-directory load-file-name))))
+
 (deftheme firebelly)
 (provide-theme 'firebelly)
 (let
@@ -127,3 +139,5 @@
        ((t (:foreground ,(color 1)))))
     `(rainbow-delimiters-depth-9-face
        ((t (:foreground ,(color 0)))))))
+
+;; firebelly-theme.el ends here
