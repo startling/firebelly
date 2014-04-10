@@ -1,4 +1,4 @@
-;; firebelly-theme.el --- see, the ground was wet and they were everywhere.
+;;; firebelly-theme.el --- see, the ground was wet and they were everywhere.
 
 ;; Author: startling <tdixon51793@gmail.com>
 ;; URL: https://github.com/startling/firebelly
@@ -149,4 +149,4 @@
     `(linum-relative-current-face
       ((t (:background ,(grey 0) :foreground ,(color 1))))))))
 
-;; firebelly-theme.el ends here
+;;; firebelly-theme.el ends here
