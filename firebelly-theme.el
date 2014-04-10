@@ -1,4 +1,4 @@
-;;; firebelly-theme.el --- see, the ground was wet and they were everywhere.
+;;; firebelly-theme.el --- a subdued, dark theme with pastelish colors.
 
 ;; Author: startling <tdixon51793@gmail.com>
 ;; URL: https://github.com/startling/firebelly
