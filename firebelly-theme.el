@@ -54,7 +54,7 @@
    `(lazy-highlight
      ((t (:background ,(grey 1) :foreground ,(grey 3)))))
    `(minibuffer-prompt
-     ((t (:foreground ,(color 1))))
+     ((t (:foreground ,(color 1)))))
    `(trailing-whitespace
      ((t (:background ,(grey 1)))))
    `(nobreak-space
@@ -62,12 +62,15 @@
    `(escape-glyph
      ((t (:foreground ,(color 2)))))
    ;; Fringes are ugly.
+
    `(fringe
      ((t (:background ,(grey 0)))))
    ;; Highlight the border.
+
    `(vertical-border
      ((t (:foreground ,(grey 1)))))
    ;; Mode lines look the same but for the text.
+
    `(mode-line
      ((t (:background ,(grey 1) :foreground ,(grey 6) :box nil))))
    `(mode-line-inactive
@@ -79,17 +82,20 @@
    `(mode-line-highlight
      ((t (:foreground ,(grey 7)))))
    ;; Regions are slightly lighter.
+
    `(region
      ((t (:background ,(grey 1)))))
    `(secondary-selection
      ((t (:background ,(grey 2)))))
     ;;;; Styling code.
    ;; Comments are lighter than their delimiters.
+
    `(font-lock-comment-face
      ((t (:foreground ,(grey 3)))))
    `(font-lock-comment-delimiter-face
      ((t (:foreground ,(grey 1)))))
    ;; Docstrings are slightly lighter.
+
    `(font-lock-doc-face
      ((t (:foreground ,(grey 4) :background ,(grey 0)))))
    `(font-lock-function-name-face
@@ -108,6 +114,7 @@
      ((t (:foreground ,(color 6)))))
     ;;;; Styling extensions.
    ;; Erc faces.
+
    `(erc-notice-face
      ((t (:foreground ,(grey 2)))))
    `(erc-current-nick-face
@@ -123,6 +130,7 @@
    `(erc-timestamp-face
      ((t (:foreground ,(color 3)))))
    ;; Rainbow delimiters are mostly in order.
+
    `(rainbow-delimiters-depth-1-face
      ((t (:foreground ,(color 7)))))
    `(rainbow-delimiters-depth-2-face
@@ -148,6 +156,6 @@
      ((t (:foreground ,(color 0) :background ,(grey 1)))))
    ;; linum-relative faces
    `(linum-relative-current-face
-     ((t (:background ,(grey 0) :foreground ,(color 1))))))))
+     ((t (:background ,(grey 0) :foreground ,(color 1)))))))
 
 ;;; firebelly-theme.el ends here
