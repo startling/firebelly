@@ -138,6 +138,14 @@
     `(rainbow-delimiters-depth-8-face
        ((t (:foreground ,(color 1)))))
     `(rainbow-delimiters-depth-9-face
-       ((t (:foreground ,(color 0)))))))
+       ((t (:foreground ,(color 0)))))
+    ;; shm faces
+    `(shm-current-face
+      ((t (:background ,(grey 1)))))
+    `(shm-quarantine-face
+      ((t (:foreground ,(color 0) :background ,(grey 1)))))
+    ;; linum-relative faces
+    `(linum-relative-current-face
+      ((t (:background ,(grey 0) :foreground ,(color 1))))))))
 
 ;; firebelly-theme.el ends here
