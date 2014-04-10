@@ -29,7 +29,7 @@
       "#75b5aa" "#6a9fb5" "#aa759f" "#8f5536"))
   ;; Simple grayscale palette.
   (greys
-    '("#222222" "#333333" "#444444" "#555555"
+    '("#222222" "#292929" "#444444" "#555555"
       "#666666" "#777777" "#888888" "#999999")))
   ;; Tiny functions to make getting from the palettes easier.
   (defun color (n) (nth n palette))
