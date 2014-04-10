@@ -3,6 +3,7 @@
 ;; Author: startling <tdixon51793@gmail.com>
 ;; URL: https://github.com/startling/firebelly
 ;; Version: 1.0
+;; Package-Requires: ((cl-lib "0.5"))
 
 ;; "I came up to a clearing, where the crosswinds cooled my face.  I
 ;;  would've sat down there in the middle, I would've rested just a
