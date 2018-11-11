@@ -90,9 +90,9 @@
     ;;;; Styling code.
      ;; Comments are lighter than their delimiters.
      `(font-lock-comment-face
-       ((t (:foreground ,(grey 3)))))
+       ((t (:foreground ,(grey 4)))))
      `(font-lock-comment-delimiter-face
-       ((t (:foreground ,(grey 1)))))
+       ((t (:foreground ,(grey 2)))))
      ;; Docstrings are slightly lighter.
      `(font-lock-doc-face
        ((t (:foreground ,(grey 4) :background ,(grey 0)))))
